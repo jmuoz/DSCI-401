@@ -15,4 +15,12 @@ def print_options(x,y,*z):
     print(x)
     print(y)
     print(z)
+#%% Return all unique combinations
+def gen_combs(elems, k):
+    if k == len(elems):
+        return [elems]
+    if k == 1:
+        return [[x] for x in elems]
+    else:
+        return [[elems[0]] + c for c in gen_combs(elems[1:], k-1)] + gen_combs(elems[1:], k)
 #%%

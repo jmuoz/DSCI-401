@@ -8,7 +8,9 @@ b = [x + 2 for x in a]
 print(b)
 #%%
 c = [x + 4 for x in a if x<=8]
+print(c)
 y = 0
 hundred = [x*2 for x in range(0,51)]
 print(hundred)
 #%%
+
