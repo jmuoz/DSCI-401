@@ -7,7 +7,7 @@ Created on Fri Apr 12 14:19:36 2019
 #For assignment 3
 import pandas as pd
 import numpy as np
-from scipy.spatial import distance
+
 #Create a class in python that is a homebrewed K Nearest-neighbors classifier.
 #Using the scipy distance import, more distance metrics can be added as needed.
 #I don't think that the manhattan edge distance is a part of the scipy distance
